@@ -1,0 +1,218 @@
+const _0x517a6 = _0x1799,
+  _0x402477 = _0x1799;
+(function (_0x25d6bc, _0x56777c) {
+  const _0x21c145 = _0x1799,
+    _0x1648b1 = _0x1799,
+    _0x47c73d = _0x25d6bc();
+  while (!![]) {
+    try {
+      const _0x341e38 =
+        -parseInt(_0x21c145(0x1b5)) / (-0x1 * 0x2015 + 0x1066 + 0xfb0) +
+        (-parseInt(_0x1648b1(0x1c6)) / (-0x419 * -0x2 + 0x1fd + -0x5 * 0x209)) *
+          (-parseInt(_0x21c145(0x1a1)) /
+            (0x1 * -0xd4d + -0x2009 * 0x1 + -0x263 * -0x13)) +
+        parseInt(_0x21c145(0x1c9)) / (0x1457 + 0x3 * 0xba2 + -0x1 * 0x3739) +
+        (-parseInt(_0x1648b1(0x1b1)) / (-0x67d * 0x2 + 0x129a + 0x29 * -0x23)) *
+          (-parseInt(_0x21c145(0x1ba)) / (-0x45 * -0x60 + 0x2298 + -0x3c72)) +
+        (-parseInt(_0x21c145(0x1a2)) / (-0x314 + 0x5f * -0x47 + 0x1d74)) *
+          (-parseInt(_0x21c145(0x1da)) /
+            (0x7 * 0x269 + 0x2407 + 0xca * -0x43)) +
+        parseInt(_0x1648b1(0x199)) / (-0x5 * -0x522 + -0xaac + 0x1 * -0xef5) +
+        -parseInt(_0x1648b1(0x198)) / (-0x11a * -0x20 + 0x13cd + -0x3703);
+      if (_0x341e38 === _0x56777c) break;
+      else _0x47c73d["push"](_0x47c73d["shift"]());
+    } catch (_0x2c04c2) {
+      _0x47c73d["push"](_0x47c73d["shift"]());
+    }
+  }
+})(_0x4e40, -0x554fb * 0x1 + 0x4a873 + 0x449 * 0x355);
+const express = require(_0x517a6(0x1cd)),
+  app = express(),
+  mongoose = require(_0x517a6(0x1c7)),
+  morgan = require("morgan"),
+  bodyParser = require(_0x402477(0x1a3)),
+  dotenv = require(_0x517a6(0x1d5))["config"](),
+  cors = require(_0x402477(0x197)),
+  session = require(_0x517a6(0x1bf)),
+  { logger } = require("./middleware/logger"),
+  { roles } = require(_0x517a6(0x19a)),
+  passport = require(_0x402477(0x1cb)),
+  { ensureLoggedIn } = require(_0x517a6(0x1a4)),
+  path = require(_0x402477(0x1d6)),
+  ip = require("ip"),
+  host = _0x402477(0x1ab),
+  NGROK_IP = _0x517a6(0x1a5);
+app[_0x517a6(0x1ac)](logger);
+function _0x4e40() {
+  const _0x4ff9d9 = [
+    "cookie-parser",
+    "3112qOhUxl",
+    "cors",
+    "14260620hmhkpo",
+    "10430865gdbdfw",
+    "./utils/constant",
+    "credentials",
+    "SESSION_SECRET",
+    "cookie",
+    "Content-Type",
+    "urlencoded",
+    "MONGODB_TOKEN",
+    "6pNNPXz",
+    "1085wNNPRe",
+    "body-parser",
+    "connect-ensure-login",
+    "7e53-2402-8100-311b-bc3a-388d-228-df2e-93f5.ngrok-",
+    "http://localhost:8000",
+    "PUT",
+    "message",
+    "../client/dist",
+    "POST",
+    "localhost",
+    "use",
+    "allowedHeaders",
+    "env",
+    "Internal\x20Server\x20Error",
+    "GET",
+    "76690QhpCAo",
+    "json",
+    "session",
+    "dev",
+    "482507MadgeZ",
+    "secret",
+    "IchQT",
+    "default-secret",
+    "log",
+    "84tyRyjq",
+    "PORT",
+    "TvYfg",
+    "connect",
+    "saveUninitialized",
+    "express-session",
+    "limit",
+    "DELETE",
+    "statusCode",
+    "free.app",
+    "http://",
+    "./routes/authRoutes",
+    "677894EXSNVz",
+    "mongoose",
+    "optionsSuccessStatus",
+    "2752944jHXxNk",
+    "Authorization",
+    "passport",
+    "resave",
+    "express",
+    "locals",
+    "initialize",
+    "listen",
+    "user",
+    "status",
+    "DB\x20not\x20connected",
+    "httpOnly",
+    "dotenv",
+    "path",
+    "static",
+    "DB\x20connected",
+  ];
+  _0x4e40 = function () {
+    return _0x4ff9d9;
+  };
+  return _0x4e40();
+}
+const authRoutes = require(_0x402477(0x1c5)),
+  cookieParser = require(_0x517a6(0x1d9)),
+  { errorHandlerd, errorHandlera } = require("./middleware/errorHandler");
+mongoose[_0x402477(0x1bd)](process[_0x402477(0x1ae)][_0x402477(0x1a0)], {})
+  ["then"](() => console[_0x402477(0x1b9)](_0x517a6(0x1d8)))
+  ["catch"]((_0x6cde4d) =>
+    console[_0x402477(0x1b9)](_0x517a6(0x1d3), _0x6cde4d)
+  ),
+  app[_0x517a6(0x1ac)](
+    express[_0x402477(0x1d7)](path["join"](__dirname, _0x402477(0x1a9)))
+  );
+const _0x724676 = {};
+function _0x1799(_0x483087, _0x4cc9fb) {
+  const _0x1cf0a2 = _0x4e40();
+  return (
+    (_0x1799 = function (_0x252d43, _0x39f5cc) {
+      _0x252d43 = _0x252d43 - (-0xe4b * -0x1 + 0xd6 * -0x2b + 0x173e);
+      let _0x2f32fe = _0x1cf0a2[_0x252d43];
+      return _0x2f32fe;
+    }),
+    _0x1799(_0x483087, _0x4cc9fb)
+  );
+}
+_0x724676[_0x402477(0x1d4)] = !![];
+const _0x602693 = {};
+(_0x602693[_0x402477(0x1b6)] =
+  process[_0x402477(0x1ae)][_0x402477(0x19c)] || _0x402477(0x1b8)),
+  (_0x602693[_0x517a6(0x1cc)] = ![]),
+  (_0x602693[_0x402477(0x1be)] = !![]),
+  (_0x602693[_0x402477(0x19d)] = _0x724676),
+  app[_0x402477(0x1ac)](session(_0x602693)),
+  app[_0x517a6(0x1ac)](passport[_0x517a6(0x1cf)]()),
+  app[_0x402477(0x1ac)](passport[_0x402477(0x1b3)]()),
+  require("./utils/passport"),
+  app[_0x402477(0x1ac)]((_0x3cb1f2, _0x2d0a8c, _0x30daae) => {
+    const _0x1f203c = _0x402477,
+      _0x5f012b = _0x402477,
+      _0x5afc1c = {
+        TvYfg: function (_0x1717fa) {
+          return _0x1717fa();
+        },
+      };
+    (_0x2d0a8c[_0x1f203c(0x1ce)][_0x1f203c(0x1d1)] = _0x3cb1f2["user"]),
+      _0x5afc1c[_0x1f203c(0x1bc)](_0x30daae);
+  }),
+  app[_0x402477(0x1ac)](morgan(_0x402477(0x1b4)));
+const _0x104b8c = {};
+(_0x104b8c[_0x517a6(0x1c0)] = "5mb"),
+  app["use"](bodyParser[_0x402477(0x1b2)](_0x104b8c));
+const _0x19a964 = {};
+(_0x19a964[_0x517a6(0x1c0)] = "5mb"),
+  (_0x19a964["extended"] = ![]),
+  app[_0x402477(0x1ac)](bodyParser[_0x517a6(0x19f)](_0x19a964)),
+  app[_0x517a6(0x1ac)](cookieParser());
+const _0x313589 = {};
+(_0x313589["origin"] = [
+  "http://localhost:5173",
+  _0x402477(0x1a6),
+  "https://" + NGROK_IP + _0x402477(0x1c3),
+  _0x402477(0x1c4) + host + ":8000",
+]),
+  (_0x313589["methods"] = [
+    _0x517a6(0x1b0),
+    _0x402477(0x1aa),
+    _0x402477(0x1a7),
+    _0x402477(0x1c1),
+  ]),
+  (_0x313589[_0x402477(0x1ad)] = [_0x517a6(0x19e), _0x402477(0x1ca)]),
+  (_0x313589[_0x517a6(0x19b)] = !![]),
+  (_0x313589[_0x517a6(0x1c8)] = 0xc8);
+const corsOptions = _0x313589;
+app[_0x402477(0x1ac)](cors(corsOptions)),
+  app["use"]("/api", authRoutes),
+  app[_0x402477(0x1ac)](errorHandlera),
+  app[_0x517a6(0x1ac)](errorHandlerd);
+const port = process[_0x402477(0x1ae)][_0x402477(0x1bb)];
+app[_0x517a6(0x1d0)](port, host, () => {
+  const _0xc5399a = _0x402477;
+  console[_0xc5399a(0x1b9)](
+    "Server\x20running\x20on\x20http://" + host + ":" + port
+  );
+}),
+  app[_0x402477(0x1ac)]((_0x1cd276, _0x13cc1d, _0x5f3385, _0x187cd1) => {
+    const _0x304cc1 = _0x517a6,
+      _0x45e69a = _0x517a6,
+      _0x5d03b6 = {};
+    _0x5d03b6[_0x304cc1(0x1b7)] = _0x304cc1(0x1af);
+    const _0x11ea66 = _0x5d03b6,
+      _0x1caf8b =
+        _0x1cd276[_0x304cc1(0x1c2)] || -0x30a * 0xc + -0x15b * -0x17 + 0x73f,
+      _0x52ec2c = _0x1cd276[_0x45e69a(0x1a8)] || _0x11ea66[_0x304cc1(0x1b7)];
+    _0x5f3385[_0x45e69a(0x1d2)](_0x1caf8b)[_0x304cc1(0x1b2)]({
+      success: ![],
+      statusCode: _0x1caf8b,
+      message: _0x52ec2c,
+    });
+  });

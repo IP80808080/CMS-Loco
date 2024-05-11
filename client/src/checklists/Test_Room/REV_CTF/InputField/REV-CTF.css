@@ -1,0 +1,103 @@
+/* CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Set background color for the entire page */
+  margin-top: 25px;
+}
+
+form {
+  background-color: #ffffff; /* Set white background color for the form */
+  padding: 20px; /* Add some padding to the form for better spacing */
+  border-radius: 8px; /* Add border radius to make the form edges rounded */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add a slight shadow effect */
+}
+
+.header {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center align items vertically */
+  padding: 10px; /* Add padding to the header */
+  text-align: center; /* Center align the text */
+  border: 1px solid #ccc; /* Add a border around the header */
+  background-color: #ffffff; /* Set background color for the header */
+}
+
+.header h2 {
+  margin-bottom: 0; /* Remove margin bottom for the h1 */
+  flex: 1; /* Allow the h1 to take up remaining space */
+}
+
+.logo {
+  margin-left: 20px; /* Add some space between the h2 and the logo */
+  max-width: 100px; /* Limit maximum width of the logo */
+}
+
+.loco-dept {
+  margin-top: 15px;
+}
+/* Center the h4 element */
+p {
+    text-align: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically */
+}
+
+/* Add style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders to avoid double borders */
+  margin-top: 20px; /* Add margin at the top */
+}
+
+/* Add style for table headers */
+th {
+  background-color: #f2f2f2; /* Set background color for headers */
+  border: 1px solid #ccc; /* Add border */
+  padding: 8px; /* Add padding */
+}
+
+/* Add style for table cells */
+td {
+  border: 1px solid #ccc; /* Add border */
+  padding: 8px; /* Add padding */
+}
+
+/* Add style for the line break */
+.loco-dept br {
+  margin-top: 5px; /* Adjust the top margin as needed */
+}
+
+/* Add style for the inspection text */
+.inspection {
+  margin-right: auto; /* Push the inspection text to the left */
+}
+
+/* Add style for labels */
+.label,
+.label2 {
+  margin-left: 20px;
+  margin-right: 20px; /* Add space to the right of labels */
+}
+
+.department {
+  margin-right: auto; /* Align department text to the left */
+  margin-left: 20px; /* Adjust left margin as needed */
+}
+.signature {
+    margin-top: 90px;
+  }
+  
+  .signature label {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
